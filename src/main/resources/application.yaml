@@ -3,9 +3,9 @@ spring:
     name: demo
 
   datasource:
-    url: jdbc:mysql://gateway01.ap-southeast-1.prod.alicloud.tidbcloud.com:4000/test?sslMode=VERIFY_IDENTITY
-    username: VNKiZosUGhnBzMR.root
-    password: 7JYmMnlOdG41GMyw
+    url: ${DB_URL}
+    username: ${DB_USER}
+    password: ${DB_PASS}
     driver-class-name: com.mysql.cj.jdbc.Driver
 
   jpa:
