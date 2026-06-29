@@ -11,6 +11,7 @@ public class User {
 
     private String name;
     private int age;
+    private  String AddnewData;
 
     public User() {}
 
@@ -22,4 +23,9 @@ public class User {
 
     public int getAge() { return age; }
     public void setAge(int age) { this.age = age; }
+    public String  AddnewData(){return AddnewData;}
+    public void AddnewData(String AddnewData){
+        this.AddnewData=AddnewData;
+    }
+
 }
